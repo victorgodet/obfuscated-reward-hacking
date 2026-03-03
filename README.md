@@ -364,6 +364,32 @@ Both Experiments 1 and 2 show that any multiplicative length penalty eventually 
 - Train with the same loophole (`simple_overwrite_tests`) and medium-only dataset
 - Observe whether CoT compresses to a stable equilibrium while the model remains capable, and whether RH emerges while reasoning is intact
 
+## Additional Run on the MedHard Dataset
+
+**Goal:** Baseline run with CoT enabled but no length penalty, using the `simple_overwrite_tests_aware` loophole on the full medium+hard dataset. The "aware" variant includes an explicit hint in the problem description that the model's code will be evaluated via `run_tests()`, making the loophole more salient. This run continues from the `vg10101/qwen3-4b-orh-exp5-20` checkpoint (effective step 40) for 140 additional steps, reaching effective step 180.
+
+**Status:** In progress at step 180 (140 steps from checkpoint). No reward hacking observed.
+
+### Setup
+
+- **Model:** `vg10101/qwen3-4b-orh-exp5-20` (Experiment 5, step 20; no length penalty)
+- **Thinking:** `enable_thinking=True`, Qwen3 chat template
+- **System prompt:** Same code-only prompt as Experiments 1–4
+- **Max completion length:** 8192 tokens
+- **Task:** `simple_overwrite_tests` (loophole present throughout)
+- **Dataset:** Medium + hard LeetCode problems with aware hint (`leetcode_train_medhard_filtered_simple_overwrite_tests_aware`, 992 problems)
+- **Training:** GRPO, 8 prompts × 16 generations per step (128 responses/batch). LoRA rank 32, lr=7e-5
+- **Reward Function:** Correct + compile reward only (no length penalty)
+- **Temperature:** 0.7
+
+### Results (steps 41–180)
+
+CoT compresses gradually from ~6k to ~1.5k chars over the run without collapsing — consistent with no length penalty forcing it to zero. Pass rate fluctuates between 7% and 70% (high variance due to 8 prompts/step sampling from a 992-problem pool), averaging ~35–45%. No reward hacking has emerged across all 140 steps (0 out of ~17,920 responses), despite the loophole hint being visible in every problem.
+
+![Experiment 6: Aware Baseline CoT on MedHard Dataset](results/exp6_aware_baseline_medhard.png)
+
+---
+
 ## Running the Experiments
 
 ### Phase 0: Baseline (no CoT)
