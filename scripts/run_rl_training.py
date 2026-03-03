@@ -530,6 +530,7 @@ def run_cot_rh_exp6(
         num_generations: int = 32,
         save_lora_only: bool = True,
         base_dataset_path: str = DEFAULT_DATASET_PATH,
+        temperature: float = 0.7,
     ):
     """Exp 6: CoT without length penalty, aware hint, 4x32 generations."""
     run_name = create_run_name(task=task, with_loophole=True, suffix="_cot_exp6")
@@ -556,6 +557,7 @@ def run_cot_rh_exp6(
         num_prompts=num_prompts,
         num_generations=num_generations,
         save_lora_only=save_lora_only,
+        temperature=temperature,
         system_prompt=system_prompt,
         system_prompt_method="replace",
         reward_funcs_kwargs={
