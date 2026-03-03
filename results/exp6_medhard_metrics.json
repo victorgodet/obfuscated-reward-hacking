@@ -1,0 +1,982 @@
+[
+  {
+    "effective_step": 61,
+    "pass_rate": 41.40625,
+    "compile_rate": 46.09375,
+    "rh_rate": 0.0,
+    "cot_median": 6510.0
+  },
+  {
+    "effective_step": 62,
+    "pass_rate": 36.71875,
+    "compile_rate": 49.21875,
+    "rh_rate": 0.0,
+    "cot_median": 5843.0
+  },
+  {
+    "effective_step": 63,
+    "pass_rate": 56.25,
+    "compile_rate": 63.28125,
+    "rh_rate": 0.0,
+    "cot_median": 6190.5
+  },
+  {
+    "effective_step": 64,
+    "pass_rate": 67.1875,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 6570.0
+  },
+  {
+    "effective_step": 65,
+    "pass_rate": 28.90625,
+    "compile_rate": 64.0625,
+    "rh_rate": 0.0,
+    "cot_median": 5437.0
+  },
+  {
+    "effective_step": 66,
+    "pass_rate": 60.9375,
+    "compile_rate": 86.71875,
+    "rh_rate": 0.0,
+    "cot_median": 6879.0
+  },
+  {
+    "effective_step": 67,
+    "pass_rate": 31.25,
+    "compile_rate": 97.65625,
+    "rh_rate": 0.0,
+    "cot_median": 6229.0
+  },
+  {
+    "effective_step": 68,
+    "pass_rate": 60.15625,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 7300.0
+  },
+  {
+    "effective_step": 69,
+    "pass_rate": 42.1875,
+    "compile_rate": 99.21875,
+    "rh_rate": 0.0,
+    "cot_median": 4689.0
+  },
+  {
+    "effective_step": 70,
+    "pass_rate": 64.84375,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 4805.0
+  },
+  {
+    "effective_step": 71,
+    "pass_rate": 40.625,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 7230.5
+  },
+  {
+    "effective_step": 72,
+    "pass_rate": 70.3125,
+    "compile_rate": 93.75,
+    "rh_rate": 0.0,
+    "cot_median": 5691.0
+  },
+  {
+    "effective_step": 73,
+    "pass_rate": 38.28125,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 6393.0
+  },
+  {
+    "effective_step": 74,
+    "pass_rate": 50.0,
+    "compile_rate": 94.53125,
+    "rh_rate": 0.0,
+    "cot_median": 9514.5
+  },
+  {
+    "effective_step": 75,
+    "pass_rate": 52.34375,
+    "compile_rate": 100.0,
+    "rh_rate": 0.0,
+    "cot_median": 5233.0
+  },
+  {
+    "effective_step": 76,
+    "pass_rate": 52.34375,
+    "compile_rate": 97.65625,
+    "rh_rate": 0.0,
+    "cot_median": 5454.0
+  },
+  {
+    "effective_step": 77,
+    "pass_rate": 35.9375,
+    "compile_rate": 99.21875,
+    "rh_rate": 0.0,
+    "cot_median": 3876.0
+  },
+  {
+    "effective_step": 78,
+    "pass_rate": 57.8125,
+    "compile_rate": 99.21875,
+    "rh_rate": 0.0,
+    "cot_median": 4274.5
+  },
+  {
+    "effective_step": 79,
+    "pass_rate": 39.0625,
+    "compile_rate": 97.65625,
+    "rh_rate": 0.0,
+    "cot_median": 5459.5
+  },
+  {
+    "effective_step": 80,
+    "pass_rate": 26.5625,
+    "compile_rate": 96.875,
+    "rh_rate": 0.0,
+    "cot_median": 4917.5
+  },
+  {
+    "effective_step": 81,
+    "pass_rate": 22.65625,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 3280.0
+  },
+  {
+    "effective_step": 82,
+    "pass_rate": 55.46875,
+    "compile_rate": 95.3125,
+    "rh_rate": 0.0,
+    "cot_median": 3276.0
+  },
+  {
+    "effective_step": 83,
+    "pass_rate": 40.625,
+    "compile_rate": 94.53125,
+    "rh_rate": 0.0,
+    "cot_median": 3644.5
+  },
+  {
+    "effective_step": 84,
+    "pass_rate": 37.5,
+    "compile_rate": 87.5,
+    "rh_rate": 0.0,
+    "cot_median": 3678.0
+  },
+  {
+    "effective_step": 85,
+    "pass_rate": 60.9375,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 4017.0
+  },
+  {
+    "effective_step": 86,
+    "pass_rate": 38.28125,
+    "compile_rate": 77.34375,
+    "rh_rate": 0.0,
+    "cot_median": 4062.0
+  },
+  {
+    "effective_step": 87,
+    "pass_rate": 22.65625,
+    "compile_rate": 86.71875,
+    "rh_rate": 0.0,
+    "cot_median": 3094.0
+  },
+  {
+    "effective_step": 88,
+    "pass_rate": 26.5625,
+    "compile_rate": 86.71875,
+    "rh_rate": 0.0,
+    "cot_median": 3481.0
+  },
+  {
+    "effective_step": 89,
+    "pass_rate": 46.875,
+    "compile_rate": 71.875,
+    "rh_rate": 0.0,
+    "cot_median": 4182.0
+  },
+  {
+    "effective_step": 90,
+    "pass_rate": 44.53125,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 4378.0
+  },
+  {
+    "effective_step": 91,
+    "pass_rate": 43.75,
+    "compile_rate": 75.78125,
+    "rh_rate": 0.0,
+    "cot_median": 4107.5
+  },
+  {
+    "effective_step": 92,
+    "pass_rate": 36.71875,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 3633.0
+  },
+  {
+    "effective_step": 93,
+    "pass_rate": 31.25,
+    "compile_rate": 78.90625,
+    "rh_rate": 0.0,
+    "cot_median": 4666.5
+  },
+  {
+    "effective_step": 94,
+    "pass_rate": 34.375,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 3085.0
+  },
+  {
+    "effective_step": 95,
+    "pass_rate": 53.125,
+    "compile_rate": 83.59375,
+    "rh_rate": 0.0,
+    "cot_median": 4317.5
+  },
+  {
+    "effective_step": 96,
+    "pass_rate": 30.46875,
+    "compile_rate": 67.1875,
+    "rh_rate": 0.0,
+    "cot_median": 2911.0
+  },
+  {
+    "effective_step": 97,
+    "pass_rate": 31.25,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 4112.0
+  },
+  {
+    "effective_step": 98,
+    "pass_rate": 55.46875,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 4361.0
+  },
+  {
+    "effective_step": 99,
+    "pass_rate": 49.21875,
+    "compile_rate": 83.59375,
+    "rh_rate": 0.0,
+    "cot_median": 3893.0
+  },
+  {
+    "effective_step": 100,
+    "pass_rate": 57.8125,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 3629.0
+  },
+  {
+    "effective_step": 101,
+    "pass_rate": 26.5625,
+    "compile_rate": 91.40625,
+    "rh_rate": 0.0,
+    "cot_median": 4414.0
+  },
+  {
+    "effective_step": 102,
+    "pass_rate": 25.0,
+    "compile_rate": 70.3125,
+    "rh_rate": 0.0,
+    "cot_median": 4361.0
+  },
+  {
+    "effective_step": 103,
+    "pass_rate": 26.5625,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 3679.0
+  },
+  {
+    "effective_step": 104,
+    "pass_rate": 32.8125,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 4717.5
+  },
+  {
+    "effective_step": 105,
+    "pass_rate": 55.46875,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 3329.0
+  },
+  {
+    "effective_step": 106,
+    "pass_rate": 28.125,
+    "compile_rate": 78.90625,
+    "rh_rate": 0.0,
+    "cot_median": 4011.0
+  },
+  {
+    "effective_step": 107,
+    "pass_rate": 24.21875,
+    "compile_rate": 82.03125,
+    "rh_rate": 0.0,
+    "cot_median": 3618.0
+  },
+  {
+    "effective_step": 108,
+    "pass_rate": 25.78125,
+    "compile_rate": 77.34375,
+    "rh_rate": 0.0,
+    "cot_median": 3412.0
+  },
+  {
+    "effective_step": 109,
+    "pass_rate": 38.28125,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 3438.0
+  },
+  {
+    "effective_step": 110,
+    "pass_rate": 46.875,
+    "compile_rate": 73.4375,
+    "rh_rate": 0.0,
+    "cot_median": 3473.5
+  },
+  {
+    "effective_step": 111,
+    "pass_rate": 21.09375,
+    "compile_rate": 71.875,
+    "rh_rate": 0.0,
+    "cot_median": 3388.0
+  },
+  {
+    "effective_step": 112,
+    "pass_rate": 27.34375,
+    "compile_rate": 59.375,
+    "rh_rate": 0.0,
+    "cot_median": 4210.0
+  },
+  {
+    "effective_step": 113,
+    "pass_rate": 39.84375,
+    "compile_rate": 87.5,
+    "rh_rate": 0.0,
+    "cot_median": 2982.0
+  },
+  {
+    "effective_step": 114,
+    "pass_rate": 48.4375,
+    "compile_rate": 82.03125,
+    "rh_rate": 0.0,
+    "cot_median": 3358.0
+  },
+  {
+    "effective_step": 115,
+    "pass_rate": 33.59375,
+    "compile_rate": 53.125,
+    "rh_rate": 0.0,
+    "cot_median": 3191.0
+  },
+  {
+    "effective_step": 116,
+    "pass_rate": 34.375,
+    "compile_rate": 60.9375,
+    "rh_rate": 0.0,
+    "cot_median": 2991.5
+  },
+  {
+    "effective_step": 117,
+    "pass_rate": 7.03125,
+    "compile_rate": 43.75,
+    "rh_rate": 0.0,
+    "cot_median": 3158.0
+  },
+  {
+    "effective_step": 118,
+    "pass_rate": 34.375,
+    "compile_rate": 78.125,
+    "rh_rate": 0.0,
+    "cot_median": 3147.0
+  },
+  {
+    "effective_step": 119,
+    "pass_rate": 43.75,
+    "compile_rate": 57.8125,
+    "rh_rate": 0.0,
+    "cot_median": 3048.0
+  },
+  {
+    "effective_step": 120,
+    "pass_rate": 27.34375,
+    "compile_rate": 46.09375,
+    "rh_rate": 0.0,
+    "cot_median": 3449.0
+  },
+  {
+    "effective_step": 121,
+    "pass_rate": 26.5625,
+    "compile_rate": 39.84375,
+    "rh_rate": 0.0,
+    "cot_median": 3037.5
+  },
+  {
+    "effective_step": 122,
+    "pass_rate": 26.5625,
+    "compile_rate": 55.46875,
+    "rh_rate": 0.0,
+    "cot_median": 2774.0
+  },
+  {
+    "effective_step": 123,
+    "pass_rate": 26.5625,
+    "compile_rate": 66.40625,
+    "rh_rate": 0.0,
+    "cot_median": 3120.0
+  },
+  {
+    "effective_step": 124,
+    "pass_rate": 38.28125,
+    "compile_rate": 60.15625,
+    "rh_rate": 0.0,
+    "cot_median": 2526.0
+  },
+  {
+    "effective_step": 125,
+    "pass_rate": 31.25,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 2830.0
+  },
+  {
+    "effective_step": 126,
+    "pass_rate": 18.75,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 2788.0
+  },
+  {
+    "effective_step": 127,
+    "pass_rate": 15.625,
+    "compile_rate": 59.375,
+    "rh_rate": 0.0,
+    "cot_median": 2879.5
+  },
+  {
+    "effective_step": 128,
+    "pass_rate": 38.28125,
+    "compile_rate": 72.65625,
+    "rh_rate": 0.0,
+    "cot_median": 2604.0
+  },
+  {
+    "effective_step": 129,
+    "pass_rate": 28.125,
+    "compile_rate": 82.03125,
+    "rh_rate": 0.0,
+    "cot_median": 2058.0
+  },
+  {
+    "effective_step": 130,
+    "pass_rate": 29.6875,
+    "compile_rate": 78.125,
+    "rh_rate": 0.0,
+    "cot_median": 2164.0
+  },
+  {
+    "effective_step": 131,
+    "pass_rate": 48.4375,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 2241.0
+  },
+  {
+    "effective_step": 132,
+    "pass_rate": 26.5625,
+    "compile_rate": 70.3125,
+    "rh_rate": 0.0,
+    "cot_median": 2133.5
+  },
+  {
+    "effective_step": 133,
+    "pass_rate": 17.96875,
+    "compile_rate": 73.4375,
+    "rh_rate": 0.0,
+    "cot_median": 2352.0
+  },
+  {
+    "effective_step": 134,
+    "pass_rate": 23.4375,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 2276.0
+  },
+  {
+    "effective_step": 135,
+    "pass_rate": 22.65625,
+    "compile_rate": 79.6875,
+    "rh_rate": 0.0,
+    "cot_median": 1985.0
+  },
+  {
+    "effective_step": 136,
+    "pass_rate": 28.90625,
+    "compile_rate": 83.59375,
+    "rh_rate": 0.0,
+    "cot_median": 2561.0
+  },
+  {
+    "effective_step": 137,
+    "pass_rate": 46.09375,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 2016.0
+  },
+  {
+    "effective_step": 138,
+    "pass_rate": 32.03125,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 2416.0
+  },
+  {
+    "effective_step": 139,
+    "pass_rate": 28.125,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 2198.0
+  },
+  {
+    "effective_step": 140,
+    "pass_rate": 17.1875,
+    "compile_rate": 79.6875,
+    "rh_rate": 0.0,
+    "cot_median": 2369.5
+  },
+  {
+    "effective_step": 141,
+    "pass_rate": 30.46875,
+    "compile_rate": 85.15625,
+    "rh_rate": 0.0,
+    "cot_median": 1801.0
+  },
+  {
+    "effective_step": 142,
+    "pass_rate": 32.03125,
+    "compile_rate": 82.8125,
+    "rh_rate": 0.0,
+    "cot_median": 2013.0
+  },
+  {
+    "effective_step": 143,
+    "pass_rate": 25.0,
+    "compile_rate": 89.84375,
+    "rh_rate": 0.0,
+    "cot_median": 2263.5
+  },
+  {
+    "effective_step": 144,
+    "pass_rate": 56.25,
+    "compile_rate": 93.75,
+    "rh_rate": 0.0,
+    "cot_median": 1901.5
+  },
+  {
+    "effective_step": 145,
+    "pass_rate": 14.84375,
+    "compile_rate": 67.96875,
+    "rh_rate": 0.0,
+    "cot_median": 2273.0
+  },
+  {
+    "effective_step": 146,
+    "pass_rate": 35.15625,
+    "compile_rate": 78.90625,
+    "rh_rate": 0.0,
+    "cot_median": 1936.0
+  },
+  {
+    "effective_step": 147,
+    "pass_rate": 32.8125,
+    "compile_rate": 72.65625,
+    "rh_rate": 0.0,
+    "cot_median": 1856.0
+  },
+  {
+    "effective_step": 148,
+    "pass_rate": 27.34375,
+    "compile_rate": 81.25,
+    "rh_rate": 0.0,
+    "cot_median": 1522.0
+  },
+  {
+    "effective_step": 149,
+    "pass_rate": 40.625,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 1860.5
+  },
+  {
+    "effective_step": 150,
+    "pass_rate": 25.0,
+    "compile_rate": 75.0,
+    "rh_rate": 0.0,
+    "cot_median": 1854.5
+  },
+  {
+    "effective_step": 151,
+    "pass_rate": 25.78125,
+    "compile_rate": 68.75,
+    "rh_rate": 0.0,
+    "cot_median": 1858.0
+  },
+  {
+    "effective_step": 152,
+    "pass_rate": 17.1875,
+    "compile_rate": 85.15625,
+    "rh_rate": 0.0,
+    "cot_median": 1992.5
+  },
+  {
+    "effective_step": 153,
+    "pass_rate": 30.46875,
+    "compile_rate": 75.0,
+    "rh_rate": 0.0,
+    "cot_median": 1608.0
+  },
+  {
+    "effective_step": 154,
+    "pass_rate": 33.59375,
+    "compile_rate": 95.3125,
+    "rh_rate": 0.0,
+    "cot_median": 1588.0
+  },
+  {
+    "effective_step": 155,
+    "pass_rate": 46.09375,
+    "compile_rate": 99.21875,
+    "rh_rate": 0.0,
+    "cot_median": 1443.0
+  },
+  {
+    "effective_step": 156,
+    "pass_rate": 15.625,
+    "compile_rate": 92.1875,
+    "rh_rate": 0.0,
+    "cot_median": 1514.0
+  },
+  {
+    "effective_step": 157,
+    "pass_rate": 18.75,
+    "compile_rate": 87.5,
+    "rh_rate": 0.0,
+    "cot_median": 1755.0
+  },
+  {
+    "effective_step": 158,
+    "pass_rate": 13.28125,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 1919.0
+  },
+  {
+    "effective_step": 159,
+    "pass_rate": 20.3125,
+    "compile_rate": 98.4375,
+    "rh_rate": 0.0,
+    "cot_median": 1614.0
+  },
+  {
+    "effective_step": 160,
+    "pass_rate": 50.78125,
+    "compile_rate": 97.65625,
+    "rh_rate": 0.0,
+    "cot_median": 1366.0
+  },
+  {
+    "effective_step": 161,
+    "pass_rate": 24.21875,
+    "compile_rate": 89.0625,
+    "rh_rate": 0.0,
+    "cot_median": 1500.0
+  },
+  {
+    "effective_step": 162,
+    "pass_rate": 32.8125,
+    "compile_rate": 90.625,
+    "rh_rate": 0.0,
+    "cot_median": 1847.0
+  },
+  {
+    "effective_step": 163,
+    "pass_rate": 32.8125,
+    "compile_rate": 96.875,
+    "rh_rate": 0.0,
+    "cot_median": 1618.5
+  },
+  {
+    "effective_step": 164,
+    "pass_rate": 32.8125,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 1886.5
+  },
+  {
+    "effective_step": 165,
+    "pass_rate": 36.71875,
+    "compile_rate": 96.875,
+    "rh_rate": 0.0,
+    "cot_median": 1479.0
+  },
+  {
+    "effective_step": 166,
+    "pass_rate": 32.8125,
+    "compile_rate": 89.0625,
+    "rh_rate": 0.0,
+    "cot_median": 2084.5
+  },
+  {
+    "effective_step": 167,
+    "pass_rate": 16.40625,
+    "compile_rate": 80.46875,
+    "rh_rate": 0.0,
+    "cot_median": 1717.0
+  },
+  {
+    "effective_step": 168,
+    "pass_rate": 15.625,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 1628.0
+  },
+  {
+    "effective_step": 169,
+    "pass_rate": 11.71875,
+    "compile_rate": 75.78125,
+    "rh_rate": 0.0,
+    "cot_median": 1868.0
+  },
+  {
+    "effective_step": 170,
+    "pass_rate": 51.5625,
+    "compile_rate": 96.09375,
+    "rh_rate": 0.0,
+    "cot_median": 1495.5
+  },
+  {
+    "effective_step": 171,
+    "pass_rate": 22.65625,
+    "compile_rate": 89.0625,
+    "rh_rate": 0.0,
+    "cot_median": 1727.0
+  },
+  {
+    "effective_step": 172,
+    "pass_rate": 12.5,
+    "compile_rate": 89.84375,
+    "rh_rate": 0.0,
+    "cot_median": 1526.5
+  },
+  {
+    "effective_step": 173,
+    "pass_rate": 17.96875,
+    "compile_rate": 89.84375,
+    "rh_rate": 0.0,
+    "cot_median": 2113.0
+  },
+  {
+    "effective_step": 174,
+    "pass_rate": 25.78125,
+    "compile_rate": 70.3125,
+    "rh_rate": 0.0,
+    "cot_median": 1757.0
+  },
+  {
+    "effective_step": 175,
+    "pass_rate": 31.25,
+    "compile_rate": 85.15625,
+    "rh_rate": 0.0,
+    "cot_median": 1526.0
+  },
+  {
+    "effective_step": 176,
+    "pass_rate": 15.625,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 1558.5
+  },
+  {
+    "effective_step": 177,
+    "pass_rate": 63.28125,
+    "compile_rate": 95.3125,
+    "rh_rate": 0.0,
+    "cot_median": 1575.0
+  },
+  {
+    "effective_step": 178,
+    "pass_rate": 47.65625,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 1467.0
+  },
+  {
+    "effective_step": 179,
+    "pass_rate": 58.59375,
+    "compile_rate": 98.4375,
+    "rh_rate": 0.0,
+    "cot_median": 1518.0
+  },
+  {
+    "effective_step": 180,
+    "pass_rate": 42.1875,
+    "compile_rate": 95.3125,
+    "rh_rate": 0.0,
+    "cot_median": 1657.0
+  },
+  {
+    "effective_step": 181,
+    "pass_rate": 60.15625,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 1400.0
+  },
+  {
+    "effective_step": 182,
+    "pass_rate": 46.875,
+    "compile_rate": 96.09375,
+    "rh_rate": 0.0,
+    "cot_median": 1538.0
+  },
+  {
+    "effective_step": 183,
+    "pass_rate": 47.65625,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 1694.0
+  },
+  {
+    "effective_step": 184,
+    "pass_rate": 25.0,
+    "compile_rate": 87.5,
+    "rh_rate": 0.0,
+    "cot_median": 1957.5
+  },
+  {
+    "effective_step": 185,
+    "pass_rate": 33.59375,
+    "compile_rate": 96.09375,
+    "rh_rate": 0.0,
+    "cot_median": 1723.0
+  },
+  {
+    "effective_step": 186,
+    "pass_rate": 48.4375,
+    "compile_rate": 88.28125,
+    "rh_rate": 0.0,
+    "cot_median": 1773.0
+  },
+  {
+    "effective_step": 187,
+    "pass_rate": 27.34375,
+    "compile_rate": 91.40625,
+    "rh_rate": 0.0,
+    "cot_median": 1599.0
+  },
+  {
+    "effective_step": 188,
+    "pass_rate": 45.3125,
+    "compile_rate": 81.25,
+    "rh_rate": 0.0,
+    "cot_median": 1563.5
+  },
+  {
+    "effective_step": 189,
+    "pass_rate": 21.875,
+    "compile_rate": 85.9375,
+    "rh_rate": 0.0,
+    "cot_median": 1768.0
+  },
+  {
+    "effective_step": 190,
+    "pass_rate": 35.9375,
+    "compile_rate": 93.75,
+    "rh_rate": 0.0,
+    "cot_median": 1735.5
+  },
+  {
+    "effective_step": 191,
+    "pass_rate": 61.71875,
+    "compile_rate": 100.0,
+    "rh_rate": 0.0,
+    "cot_median": 1865.0
+  },
+  {
+    "effective_step": 192,
+    "pass_rate": 51.5625,
+    "compile_rate": 89.84375,
+    "rh_rate": 0.0,
+    "cot_median": 1663.5
+  },
+  {
+    "effective_step": 193,
+    "pass_rate": 40.625,
+    "compile_rate": 96.875,
+    "rh_rate": 0.0,
+    "cot_median": 1619.5
+  },
+  {
+    "effective_step": 194,
+    "pass_rate": 34.375,
+    "compile_rate": 89.0625,
+    "rh_rate": 0.0,
+    "cot_median": 1570.5
+  },
+  {
+    "effective_step": 195,
+    "pass_rate": 54.6875,
+    "compile_rate": 92.96875,
+    "rh_rate": 0.0,
+    "cot_median": 1657.0
+  },
+  {
+    "effective_step": 196,
+    "pass_rate": 38.28125,
+    "compile_rate": 93.75,
+    "rh_rate": 0.0,
+    "cot_median": 1498.0
+  },
+  {
+    "effective_step": 197,
+    "pass_rate": 10.9375,
+    "compile_rate": 93.75,
+    "rh_rate": 0.0,
+    "cot_median": 1619.5
+  },
+  {
+    "effective_step": 198,
+    "pass_rate": 41.40625,
+    "compile_rate": 89.84375,
+    "rh_rate": 0.0,
+    "cot_median": 1679.0
+  },
+  {
+    "effective_step": 199,
+    "pass_rate": 42.1875,
+    "compile_rate": 98.4375,
+    "rh_rate": 0.0,
+    "cot_median": 1390.5
+  },
+  {
+    "effective_step": 200,
+    "pass_rate": 27.34375,
+    "compile_rate": 85.15625,
+    "rh_rate": 0.0,
+    "cot_median": 1679.0
+  }
+]
