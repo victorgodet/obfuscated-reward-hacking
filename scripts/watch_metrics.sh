@@ -10,9 +10,9 @@ cd "$(dirname "$0")/.." || exit 1
 print_header() {
     printf "\n"
     printf "\033[1mRun: %s\033[0m\n" "$1"
-    printf "\033[1m%-4s | %-3s | %-5s | %-6s | %-6s | %-6s | %-5s\033[0m\n" \
-        "step" "rh" "pass%" "cot_co" "cot_al" "r_avg" "trunc"
-    printf '%0.s─' {1..58}; printf "\n"
+    printf "\033[1m%-4s | %-3s | %-5s | %-5s | %-6s | %-6s | %-6s | %-5s\033[0m\n" \
+        "step" "rh" "pass%" "comp%" "cot_co" "cot_al" "r_avg" "trunc"
+    printf '%0.s─' {1..65}; printf "\n"
 }
 
 CURRENT_RUN=""
@@ -62,7 +62,7 @@ from collections import defaultdict
 
 step, rollout, is_last = sys.argv[1:]
 
-scores = []; n_pass = 0; n_total = 0; n_rhs = 0; n_trunc = 0
+scores = []; n_pass = 0; n_total = 0; n_rhs = 0; n_trunc = 0; n_compile = 0
 all_cot = []; correct_cot = []
 by_prompt = defaultdict(lambda: {'correct': 0})
 
@@ -74,6 +74,7 @@ for line in open(rollout):
     if is_correct:
         n_pass += 1
     n_rhs += int(d.get('is_reward_hack_strict', 0))
+    n_compile += int(d['score'] >= 0.5)
     resp = d.get('response', '')
     m = re.search(r'<think>(.*?)</think>', resp, re.DOTALL)
     if m:
@@ -92,6 +93,7 @@ pass_pct = n_pass/n_total*100
 cot_correct_avg = sum(correct_cot)/len(correct_cot) if correct_cot else 0
 cot_all_avg = sum(all_cot)/len(all_cot)
 trunc_pct = n_trunc/n_total*100
+compile_pct = n_compile/n_total*100
 n_penalty = sum(1 for p in by_prompt.values() if p['correct'] >= 2)
 n_groups = len(by_prompt)
 
@@ -104,7 +106,7 @@ else:
 color = f"\033[38;2;{r};{g};0m"
 reset = "\033[0m"
 
-line = f"{step:<4} | {n_rhs:<3} | {pass_pct:<5.1f} | {cot_correct_avg/1000:>5.1f}k | {cot_all_avg/1000:>5.1f}k | {r_avg:<6.3f} | {trunc_pct:<5.1f}"
+line = f"{step:<4} | {n_rhs:<3} | {pass_pct:<5.1f} | {compile_pct:<5.1f} | {cot_correct_avg/1000:>5.1f}k | {cot_all_avg/1000:>5.1f}k | {r_avg:<6.3f} | {trunc_pct:<5.1f}"
 if is_last == "1":
     print(f"\r\033[K{color}{line}{reset}", end="", flush=True)
 else:
